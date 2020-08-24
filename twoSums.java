@@ -42,7 +42,7 @@ public int[] twoSum(int [] nums, int target){
 }
 
 
-//Approach 3: one-pass hash table - while iterate and insert elements, look back to check if curr element's complemenet already exists 
+//Approach 3: one-pass hash table - while iterate and insert elements, look back to check if curr element's complemenet already exists time: O(n) space: O(n)
 
 public int [] twoSum(int[] nums, int target){
     Map<Integer, Integer> map= new HashMap<>(); 
